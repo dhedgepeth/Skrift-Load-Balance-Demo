@@ -1,0 +1,8 @@
+﻿@using Umbraco.Cms.Web.Common.PublishedModels;
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage
+@{
+	Layout = null;
+	var region = Environment.GetEnvironmentVariable("Subscriber_Region");
+}
+<h1>Hello World</h1>
+<h1>Current Subscriber Region: @region</h1>
