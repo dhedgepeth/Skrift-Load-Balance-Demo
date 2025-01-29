@@ -1,10 +1,17 @@
 {
   "Deploy": {
     "Project": {
-      "Name": "skrift load balancing demo",
+      "Name": "Skrift Load Balancing Demo",
       "Alias": "skrift-load-balancing-demo",
       "Id": "6cf76b82-b6be-4e7a-8d17-9c52662df062",
+      "Url": "https://www.s1.umbraco.io/project/skrift-load-balancing-demo",
       "Workspaces": [
+        {
+          "Id": "1a48f56f-e5dd-4a58-9680-b563f60298b8",
+          "Name": "Development",
+          "Type": "development",
+          "Url": "https://dev-skrift-load-balancing-demo.useast01.umbraco.io"
+        },
         {
           "Id": "8bcce260-980c-430f-8661-89a666d452ed",
           "Name": "Live",
